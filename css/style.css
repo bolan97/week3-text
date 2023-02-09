@@ -1,0 +1,85 @@
+
+body{
+    font-family: Georgia, serif;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.centered-wrapper{
+    width:800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title{
+    position: relative;
+    width: 100px;
+    text-align: left;
+    margin: 0 auto;
+}
+.title a{
+    position: absolute;
+}
+.title a.east{
+    left: 100%;
+    top: 0px;
+    rotate: 0deg;
+}
+.title a.south{
+    left: 78%;
+    top: 80px;
+    rotate: 90deg;
+}
+
+.title a.north{
+    left: 78%;
+    top: -60px;
+    rotate: 90deg;
+}
+.title a.weekday{
+    left: 0%;
+    top: 0px;
+    rotate: 0deg;
+
+}
+.title a.weekday2{
+    left: 0%;
+    top: 35px;
+    rotate:10deg;
+
+}
+.title a.weekday3{
+    left: 0%;
+    top: 65px;
+    rotate: -10deg;
+
+}
+.title a.weekday4{
+    left: 0%;
+    top: 95px;
+    rotate: 10deg;
+
+}
+.title a.weekday5{
+    left: 0%;
+    top: 120px;
+    rotate: 30deg;
+
+}
+
+.title a.west{
+    left: 60%;
+    top: 0px;
+    rotate: 0deg;
+}
+
+span#ghost{
+    opacity: 0.4;
+}
